@@ -12,7 +12,7 @@ VERSION or DATE: V1.1 - May 10th 2018
 
 HOW TO START THIS PROJECT: Run the java program then use 'ncat --ssl localhost 4001' on an Ubuntu Linux machine to connect.
 
-AUTHORS: Mateusz Gembarzewski and John Zaino
+AUTHORS: Mateusz Gembarzewski & John Zaino
 
 USER INSTRUCTIONS:
 First run main.java and connect to the server on port 4001 using the command 'ncat --ssl localhost 4001'. 
