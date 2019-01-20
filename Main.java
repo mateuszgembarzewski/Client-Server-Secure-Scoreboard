@@ -1,5 +1,5 @@
 // Author: Dr. Leune - Provided Initial version
-// Editor: Mateusz Gembarzewski - Finialized to work with project
+// Editor: Mateusz Gembarzewski - Finalized to work with project
 import java.util.ArrayList;
 
 public class Main {
