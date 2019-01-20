@@ -32,6 +32,7 @@ COMMANDS:
 * /ANSWER questionID answer
 
 The /REGISTER command allows one to register their current nickname with a password so they can save their progess and continue later.
+
     - Neither the nickname nor the password can be changed after registering in the current version (v1.1).
     
     
@@ -41,6 +42,7 @@ The /LOGIN command allows a user to login with their nickname and password they 
     - If users wish to logout they must terminate the connection and reconnect.
 
 The /JOIN command allows a user to join one of the pre-set quiz games.
+
     - Users must enter the gameID of the game they wish to join.
     
     - Users can only join one game at a time, to join another game they must first leave the current one (/LEAVE).
@@ -48,6 +50,7 @@ The /JOIN command allows a user to join one of the pre-set quiz games.
 The /LEAVE command leaves a game that a user is currently in.
 
 The /NICK command allows a user to set themselves a nickname.
+
     - Users must enter their desired nickname which cannot contain spaces.
     
     - Users cannot set their nick to any nickname that has already been registered or is currently used by another client.
