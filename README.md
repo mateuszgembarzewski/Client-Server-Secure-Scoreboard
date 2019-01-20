@@ -5,9 +5,13 @@ A distributed scoring system. Including a client, a server, and a protocol.
 Documentation
 
 PROJECT TITLE: Client/Server Secure Scoreboard
+
 PURPOSE OF PROJECT: Networking Final Project
+
 VERSION or DATE: V1.1 - May 10th 2018
+
 HOW TO START THIS PROJECT: Run the java program then use 'ncat --ssl localhost 4001' on an Ubuntu Linux machine to connect.
+
 AUTHORS: Mateusz Gembarzewski and John Zaino
 
 USER INSTRUCTIONS:
