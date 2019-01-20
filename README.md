@@ -33,25 +33,45 @@ COMMANDS:
 
 The /REGISTER command allows one to register their current nickname with a password so they can save their progess and continue later.
     - Neither the nickname nor the password can be changed after registering in the current version (v1.1).
+    
+    
 The /LOGIN command allows a user to login with their nickname and password they set.
     - The user must enter their registered nickname and password, there is no logout feature in this current version (v1.1).
+    
     - If users wish to logout they must terminate the connection and reconnect.
+
 The /JOIN command allows a user to join one of the pre-set quiz games.
     - Users must enter the gameID of the game they wish to join.
+    
     - Users can only join one game at a time, to join another game they must first leave the current one (/LEAVE).
+
 The /LEAVE command leaves a game that a user is currently in.
+
 The /NICK command allows a user to set themselves a nickname.
     - Users must enter their desired nickname which cannot contain spaces.
+    
     - Users cannot set their nick to any nickname that has already been registered or is currently used by another client.
+    
     - Clients cannot change nicknames while in a game.
-    - Scores are tied to the nickname in this current version (v1.1), thus changing nicknames allows another user to take the nickname and its scores (unless it's registered).
+    
+    - Scores are tied to the nickname in this current version (v1.1), thus changing nicknames allows another user to take the   nickname and its scores (unless it's registered).
+    
 The /SHOW command, depending on the parameter given, shows the games, questions, or scoreboard.
+
     - Acceptable Parameters:
+    
         - games - displays the list of games.
+        
         - questions - displays the list of questions for the current game (must be in a game).
+        
             - Optional: additional parameter gameID to display the questions for a specific game (does not need to be in a/the game to display questions via gameID).
+            
         - scoreboard - displays the scoreboard for the current game (must be in a game).
+        
             - Optional: additional parameter gameID to display the scoreboard for a specific game (does not need to be in a game                                to display the scoreboard via gameID).
+            
 The /ANSWER command allows the user to attempt to answer a question, it requires a question id and the answer itself.
+
     - Must be in the game that the client is trying to answer a question for.
+    
     - Questions can only be answered once.
